@@ -1,4 +1,6 @@
 package org.example.customerprovince.service;
 
-public interface IProvinceService {
+import org.example.customerprovince.model.Province;
+
+public interface IProvinceService extends IGenerateService<Province>{
 }

@@ -1,4 +1,7 @@
 package org.example.customerprovince.repository;
 
-public interface IProvinceRepository {
+import org.example.customerprovince.model.Province;
+import org.springframework.data.repository.CrudRepository;
+
+public interface IProvinceRepository extends CrudRepository<Province, Long> {
 }
