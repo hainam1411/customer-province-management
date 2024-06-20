@@ -1,3 +1,11 @@
 
-_
-java:S2094"BRemove this empty class, write its code or make it an "interface".(ºÏ¾İ8®ëšƒ2
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8êâá¥ƒ2J$8dda4787-7e8b-4d45-8cf6-b9926a78019d
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ëâá¥ƒ2J$679f7f63-2de1-4000-9bb9-2e428a18294a
+q
+java:S6856;".Bind path variable "id" to a method parameter.(µòšä8â€¦ƒ2J$c9ffa988-8d76-435d-9068-252aeb7357fc
+ˆ
+java:S4684("@Replace this persistent entity with a simple POJO or DTO object.(¤íÙÂüÿÿÿÿ8ğâá¥ƒ2J$12d0684b-46f9-480e-987b-d58b1d9eaefb
+ˆ
+java:S4684<"@Replace this persistent entity with a simple POJO or DTO object.(æ¥·øÿÿÿÿ8ç€¦ƒ2J$51e882bd-6ca1-466e-a809-1807dee273fe

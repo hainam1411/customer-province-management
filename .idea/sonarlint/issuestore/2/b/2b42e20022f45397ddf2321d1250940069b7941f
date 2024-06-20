@@ -1,3 +1,15 @@
 
-_
-java:S2094"BRemove this empty class, write its code or make it an "interface".(¢ÊÙÓ8ÕŒêšƒ2
+—
+java:S11921"TDefine a constant instead of duplicating this literal "redirect:/customers" 3 times.(­Â—Æ8³ó„¦ƒ2J$46407008-dbbe-419f-85a7-504a5ed3441f
+
+java:S11920"HDefine a constant instead of duplicating this literal "message" 3 times.(á’¸çÿÿÿÿÿ8³ó„¦ƒ2J$c7c7e16d-3368-403f-916a-9e2a09841584
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8—ª…¦ƒ2J$45cae114-019a-454a-acf4-21643aa4dee0
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8‚³“¦ƒ2J$1d4894d3-01f3-472c-bd31-6b7c187820f4
+q
+java:S6856@".Bind path variable "id" to a method parameter.(µòšä8Éıˆ¦ƒ2J$690dfe4f-cdfb-42be-8fd8-c3b03f3aa997
+ˆ
+java:S4684-"@Replace this persistent entity with a simple POJO or DTO object.(ã˜È÷øÿÿÿÿ8Íıˆ¦ƒ2J$620a4723-ad26-4fa4-b288-154eafa5bd31
+ˆ
+java:S4684A"@Replace this persistent entity with a simple POJO or DTO object.(¬µŸ•øÿÿÿÿ8Ïıˆ¦ƒ2J$621e7f71-f346-4498-90ac-d0d2939e5df1

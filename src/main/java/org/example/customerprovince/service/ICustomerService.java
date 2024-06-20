@@ -1,4 +1,12 @@
 package org.example.customerprovince.service;
 
-public interface ICustomerService {
+import org.example.customerprovince.model.Customer;
+import org.example.customerprovince.model.Province;
+
+import java.util.Optional;
+
+public interface ICustomerService extends IGenerateService<Customer> {
+    Iterable<Customer> findAllByProvince(Province province);
 }
+
+

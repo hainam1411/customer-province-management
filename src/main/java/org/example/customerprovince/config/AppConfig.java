@@ -1,5 +1,7 @@
 package org.example.customerprovince.config;
 
+import org.example.customerprovince.formatter.ProvinceFomatter;
+import org.example.customerprovince.service.impl.ProvinceService;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.ApplicationContext;
@@ -8,6 +10,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+import org.springframework.data.web.config.EnableSpringDataWebSupport;
+import org.springframework.format.FormatterRegistry;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.orm.jpa.JpaVendorAdapter;
@@ -32,6 +36,7 @@ import java.util.Properties;
 @EnableTransactionManagement
 @ComponentScan(basePackages = "org.example.customerprovince")
 @EnableJpaRepositories("org.example.customerprovince.repository")
+@EnableSpringDataWebSupport
 public class AppConfig implements WebMvcConfigurer, ApplicationContextAware {
     private ApplicationContext applicationContext;
 
@@ -45,7 +50,7 @@ public class AppConfig implements WebMvcConfigurer, ApplicationContextAware {
     public SpringResourceTemplateResolver templateResolver() {
         SpringResourceTemplateResolver templateResolver = new SpringResourceTemplateResolver();
         templateResolver.setApplicationContext(applicationContext);
-        templateResolver.setPrefix("/WEB-INF/views");
+        templateResolver.setPrefix("/WEB-INF");
         templateResolver.setSuffix(".html");
         templateResolver.setTemplateMode(TemplateMode.HTML);
         templateResolver.setCharacterEncoding("UTF-8");
@@ -108,5 +113,9 @@ public class AppConfig implements WebMvcConfigurer, ApplicationContextAware {
         properties.setProperty("hibernate.hbm2ddl.auto", "update");
         properties.setProperty("hibernate.dialect", "org.hibernate.dialect.MySQL8Dialect");
         return properties;
+    }
+    @Override
+    public void addFormatters(FormatterRegistry registry) {
+        registry.addFormatter(new ProvinceFomatter(applicationContext.getBean(ProvinceService.class)));
     }
 }

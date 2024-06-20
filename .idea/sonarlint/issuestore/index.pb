@@ -1,8 +1,6 @@
 
 <
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
-v
-Fsrc/main/java/org/example/customerprovincemanagement/HelloServlet.java,3\8\38651ee09139a6e4b43596bb424f1c6eaa9f6840
 I
 src/main/webapp/index.jsp,8\e\8e6d3b70c9f5b02570779b0441540d45eceb0ded
 l
@@ -17,8 +15,6 @@ n
 Msrc/main/java/org/example/customerprovince/controller/CustomerController.java,2\b\2b42e20022f45397ddf2321d1250940069b7941f
 }
 Msrc/main/java/org/example/customerprovince/controller/ProvinceController.java,f\0\f0168a715f5e497772080829ab78a70b1e922e0e
-y
-Isrc/main/java/org/example/customerprovince/formatter/ProvinceFomater.java,7\d\7d47c771f2bb2a002b0cdd301bf50d8f68dac243
 z
 Jsrc/main/java/org/example/customerprovince/formatter/ProvinceFomatter.java,b\c\bc6b14a2bfa66ceed12abbba1b57b2de5665e003
 ~
@@ -37,7 +33,17 @@ Hsrc/main/java/org/example/customerprovince/service/IGenerateService.java,8\2\8
 Lsrc/main/java/org/example/customerprovince/service/impl/CustomerService.java,d\f\df32e0229f8f3bb6482720df034ed61791d602d0
 |
 Lsrc/main/java/org/example/customerprovince/service/impl/ProvinceService.java,8\8\88762b67c05825792c5e6fad4b4ed6bba5981eac
-Y
-)src/main/webapp/WEB-INF/province/404.html,2\1\21cbfff2c7ca103346af081b4b2d452bca1063d7
 \
 ,src/main/webapp/WEB-INF/province/layout.html,5\8\588ec617eb29aa351f2f55047ba606da18435f1c
+Z
+*src/main/webapp/WEB-INF/province/list.html,3\7\3799573e98c7b8f7fa3505b878319fa470a34d9a
+S
+#src/main/webapp/WEB-INF/layout.html,2\e\2e163efc4d20b9c4603b5301bf7525982d3011d0
+V
+&src/main/webapp/WEB-INF/error_404.html,5\0\50a2be90cb08e16d027bceeb6df5d96ab08a8f99
+\
+,src/main/webapp/WEB-INF/province/create.html,3\f\3f35f96e5eb26ce3a26ad6f5beb16d80cd97a6e3
+Z
+*src/main/webapp/WEB-INF/customer/list.html,e\9\e92707b578d29a67e8bdbb557b1fc56ccb799243
+\
+,src/main/webapp/WEB-INF/customer/create.html,7\5\75f09766e9f19f93673f8e524e323cc449ea5ebf

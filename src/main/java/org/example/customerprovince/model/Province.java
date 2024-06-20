@@ -1,27 +1,16 @@
 package org.example.customerprovince.model;
-
-import org.springframework.data.annotation.Id;
-
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "province")
 public class Province {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy= GenerationType.IDENTITY)
     private Long id;
 
     private String name;
 
     public Province() {
-    }
-
-    public Province(Long id, String name) {
-        this.id = id;
-        this.name = name;
     }
 
     public Long getId() {
