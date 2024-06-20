@@ -47,3 +47,5 @@ Z
 *src/main/webapp/WEB-INF/customer/list.html,e\9\e92707b578d29a67e8bdbb557b1fc56ccb799243
 \
 ,src/main/webapp/WEB-INF/customer/create.html,7\5\75f09766e9f19f93673f8e524e323cc449ea5ebf
+\
+,src/main/webapp/WEB-INF/customer/update.html,9\4\940225d9868c0871c0b6385a63347a9176f7e5f6
