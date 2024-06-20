@@ -37,6 +37,7 @@ import java.util.Properties;
 @ComponentScan(basePackages = "org.example.customerprovince")
 @EnableJpaRepositories("org.example.customerprovince.repository")
 @EnableSpringDataWebSupport
+
 public class AppConfig implements WebMvcConfigurer, ApplicationContextAware {
     private ApplicationContext applicationContext;
 

@@ -1,10 +1,6 @@
 
 <
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
-I
-src/main/webapp/index.jsp,8\e\8e6d3b70c9f5b02570779b0441540d45eceb0ded
-l
-<src/main/java/org/example/customerprovince/HelloServlet.java,d\c\dc3fb792e2b48dd185b2e2c8e10f413182a926ca
 p
 @src/main/java/org/example/customerprovince/config/AppConfig.java,e\5\e5b4634e023d6414c8406b9efac60d5543b5024f
 n
@@ -33,8 +29,6 @@ Hsrc/main/java/org/example/customerprovince/service/IGenerateService.java,8\2\8
 Lsrc/main/java/org/example/customerprovince/service/impl/CustomerService.java,d\f\df32e0229f8f3bb6482720df034ed61791d602d0
 |
 Lsrc/main/java/org/example/customerprovince/service/impl/ProvinceService.java,8\8\88762b67c05825792c5e6fad4b4ed6bba5981eac
-\
-,src/main/webapp/WEB-INF/province/layout.html,5\8\588ec617eb29aa351f2f55047ba606da18435f1c
 Z
 *src/main/webapp/WEB-INF/province/list.html,3\7\3799573e98c7b8f7fa3505b878319fa470a34d9a
 S
